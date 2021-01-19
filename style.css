@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: linear-gradient(to bottom, white, rgb(10, 186, 192));
+}
+
+#titulo{
+    font-size: 4em;
+}
+
+.inicial{
+    font-weight: 1000;
+    font-size: 1em;
+}
+
+#turno{
+    font-size: 1em;
+    border: 3px ;
+    padding: 5px;
+    font-style: italic;
+    border-style: dashed;
+}
+
+.btn{ 
+    align-self: center;
+   
+}
+
+.tablero>.btn{
+    border: solid 2px black;
+    width: 60px;
+    height: 60px;
+    margin: 8px;
+    background-color: white;
+    color: gray;
+    font-size: 2em;
+}
+
+footer{
+    color: blue;
+    font-style: bold;
+    font-style: italic;
+}
+
